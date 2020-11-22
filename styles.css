@@ -3,7 +3,7 @@ body {
 
 }
 
-/*header section*/
+/*header section start*/
 
 #avatar {
 	height: 120px;
@@ -19,7 +19,8 @@ body {
 }
 
 #description-h2 {
-	margin-top: 0;
+	margin-top: 5px;
+	padding-bottom: 10px;
 	color: #6d6e70;
 	font-family: "Goldman", sans-serif;
 	font-size: 2rem;
@@ -33,6 +34,90 @@ body {
 
 #header {
 	text-align: center;
-	margi: 0;
+	margin: 0;
 	background: #d6e0f0;
+}
+
+/*header section end*/
+
+/*hello section start*/
+.hello-div {
+	text-align: center;
+}
+
+#hello-pic {
+	margin-top: 100px;
+	height: 45px;
+}
+
+#hello-h3 {
+	margin-top: 10px;
+	font-size: 1.8rem;
+	font-family: "Pacifico", cursive;
+	font-weight: 600;
+}
+
+.hello-text-div {
+	text-align: center;
+	width: 50%;
+}
+
+#hello-text {
+	font-size: 2.7rem;
+	font-family: "Oswald", sans-serif;
+	font-weight: 400;
+}
+
+/*hello section end*/
+
+/*skills technologies start*/
+
+
+#skills-technologies {
+	text-align: center;
+	background-color: ;
+	font-family: "Oswald", sans-serif;
+	font-weight: 600;
+	font-size: 2rem;
+	margin: 100px 0 0;
+}
+.skills {
+	background-color: ;
+}
+
+.technologies {
+	background-color: ;
+
+
+}
+
+.card-body-custom {
+}
+
+.list-custom {
+	position: relative;
+	right: 15px;
+	margin-top: 25px; 
+
+}
+
+.card-image {
+	height: 40px;
+	margin-right: 10px;
+
+}
+
+.card-para {
+	display: inline-block;
+	text-align: left;
+}
+
+.data-science-item {
+	position: relative;
+	right: 32px;
+}
+
+.computer-vision-item {
+	position: relative;
+	right: 19px;
 }
