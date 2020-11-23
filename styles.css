@@ -3,6 +3,12 @@ body {
 
 }
 
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
 /*header section start*/
 
 #avatar {
@@ -82,16 +88,29 @@ body {
 	margin: 100px 0 0;
 }
 .skills {
-	background-color: ;
+	margin-bottom: 40px;
+	/*background-color: #d6e0f0;*/
 }
 
 .technologies {
-	background-color: ;
-
-
+	/*background-color: #d6e0f0;*/
 }
 
-.card-body-custom {
+/*.card-body-custom {
+	position: relative;
+	right: 50px;
+	
+}*/
+
+/*#tech-header-h1 {
+	position: relative;
+	right: 10px;
+}*/
+
+
+#skills-h1 {
+	position: relative;
+	right: 5px
 }
 
 .list-custom {
@@ -114,10 +133,30 @@ body {
 
 .data-science-item {
 	position: relative;
-	right: 32px;
+	right: 31px;
 }
 
 .computer-vision-item {
 	position: relative;
-	right: 19px;
+	right: 18px;
+}
+
+#html-item {
+	position: relative;
+
+}
+#css-item {
+	position: relative;
+	right: 21px;
+
+}
+
+#js-item {
+	position: relative;
+	left: 0;
+
+}
+
+#python-item {
+	position: relative;
 }
